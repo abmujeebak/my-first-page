@@ -1,0 +1,28 @@
+button {
+  font-size: 5px;
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+button:hover {
+  background-color: #3f3f5e;
+}
+
+table,
+th,
+td {
+  border: 1px solid blue;
+  width: 300x;
+  border-collapse: collapse;
+  vertical-align: middle;
+  text-align: center;
+  height: 60px;
+}
+
+#tablehead {
+  background-color: aqua;
+  color: white;
+}

@@ -1,0 +1,159 @@
+ @import url('https://fonts.cdnfonts.com/css/satoshi');
+
+body{
+    font-family: 'Satoshi', sans-serif;
+    
+}
+
+
+.nav1{
+    
+   
+    display: flex;
+    justify-content: space-evenly;
+    
+    text-align: center;
+    align-items: center;
+
+
+    
+
+}
+
+.list1{
+    display: flex;
+    gap: 2rem;
+   
+    list-style: none;
+    
+
+    
+}
+
+.link1{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 500;
+    color:#5B5B5B;
+}
+
+.button1{
+    background-color: #4586FF;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+
+}
+
+
+.section1{
+    margin-top: 2rem;
+
+}
+
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button2{
+     background-color: white;
+    padding: 14px 22px;
+    border: none;
+    border-radius: 30px;
+    color: black;
+}
+
+
+.image1{
+    
+    
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+}
+.box2{
+    display: flex;
+     align-items: center;
+     gap: 2rem;
+
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+     background-color: #F5FAFF;
+     padding: 20px;
+       border-radius: 30px;
+      margin-top: 1rem;
+        width: 1000px;
+}
+
+.header1{
+    display: flex;
+    align-items: center;
+  
+    gap: 0.5rem;
+   
+   
+  
+    
+
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 30px;  /* Gap between boxes */
+    align-items: center;  /* Center vertically */
+}
+.form-field {
+    flex: 1;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c6d4e1;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+    cursor: pointer;  /* Change cursor to pointer */
+}
+input:hover {
+    border-color: #007bff;  /* Change border color on hover */
+}
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    height: 42px;  /* Set to same height as input fields */
+}
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 

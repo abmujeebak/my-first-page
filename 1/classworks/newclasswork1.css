@@ -1,0 +1,15 @@
+section {
+  background-image: url(1d8067f2cdd4f6c2b6226bab0af6c108.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  filter: grayscale(100%);
+  text-align: center;
+}
+
+.box1 {
+  width: 400px;
+  height: 200px;
+  text-align: center;
+}

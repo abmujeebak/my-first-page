@@ -1,0 +1,65 @@
+section {
+  background-color: #f8f8f8;
+}
+#card2 {
+  text-align: center;
+  justify-content: center;
+}
+#card1 {
+  align-items: center;
+  align-content: center;
+  display: flex;
+  gap: 8px;
+}
+
+#card1 button {
+  background-color: white;
+  border: 1px solid rgb(231, 231, 232);
+  border-radius: 100px;
+  padding: 6px 8px;
+  cursor: pointer;
+}
+#card1 button:hover {
+  background-color: green;
+  color: white;
+}
+
+#card1 img {
+  width: 17px;
+}
+#card7 {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card5 {
+  border-radius: 8px;
+  background-color: white;
+  width: 300px;
+}
+.card3 {
+  width: 200px;
+  border-radius: 20px;
+  padding: 12px;
+}
+.card6 {
+  justify-content: left;
+}
+.card3 img {
+  width: 2px;
+}
+.card11 {
+  color: green;
+}
+#card10 {
+  padding: 4px 6px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: white;
+}
+#card10:hover {
+  background-color: green;
+  color: white;
+}

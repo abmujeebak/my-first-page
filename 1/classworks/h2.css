@@ -1,0 +1,119 @@
+nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+nav img {
+  width: 100px;
+  height: 50px;
+}
+
+#list1 {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+}
+#button1 {
+  background-color: white;
+  border-radius: 5px;
+  padding: 2px 4px;
+  height: 30px;
+  border: none;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#button2 {
+  background-color: forestgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 4px;
+  height: 30px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#div1 {
+  gap: 1rem;
+}
+#section1 {
+  background-color: wheat;
+}
+#header1 {
+  text-align: center;
+  justify-content: center;
+}
+#button3 {
+  padding: 2px 4px;
+  border: none;
+  background-color: gray;
+  border-radius: 5px;
+}
+#box1 {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.box1 {
+  width: 200px;
+}
+
+.box1 img {
+  border-radius: 10px;
+}
+#header2 {
+  justify-content: center;
+  text-align: center;
+}
+
+#header2 button {
+  background-color: forestgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 4px;
+  height: 30px;
+}
+
+.box2 {
+  background-color: wheat;
+  padding: 10px;
+  height: 110px;
+}
+.box2 button {
+  position: relative;
+  left: 990px;
+  bottom: 80px;
+}
+#list1 {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+#list2 {
+  list-style-image: url(Screenshot\ 2025-12-20\ 215511.png);
+}
+#list3 {
+  list-style-image: url(Screenshot\ 2025-12-20\ 215611.png);
+}
+#button4 {
+  background-color: forestgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 4px;
+  height: 30px;
+}
+
+#button5 {
+  background-color: forestgreen;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 4px;
+  height: 30px;
+}
+#box3 {
+  text-align: center;
+}

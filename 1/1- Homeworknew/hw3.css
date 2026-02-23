@@ -1,0 +1,9 @@
+.text1{
+    background-color: brown;
+    color: blue;
+}
+.box1{
+    background-color: brown;
+    border: 1px solid black;
+    gap: 1rem;
+}

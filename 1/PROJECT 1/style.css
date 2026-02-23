@@ -1,0 +1,9 @@
+body {
+  height: 1000px;
+}
+
+.box1 {
+  background-color: blue;
+  width: 300px;
+  position: fixed;
+}

@@ -1,0 +1,25 @@
+table,
+tr,
+td,
+th {
+  width: 300px;
+  height: 50px;
+
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: purple;
+  color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: aqua;
+}
+tr:nth-child(even) {
+  background-color: brown;
+}
+#box2 {
+  text-align: left;
+}

@@ -1,0 +1,36 @@
+#header1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#box1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 20px;
+}
+#box2 {
+  text-align: left;
+}
+#box3 {
+    padding-top: 8px;
+  background-color: gray;
+  width: 500px;
+  height: 520px;
+}
+
+#list1 {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+li {
+  display: flex;
+  gap: 0.3rem;
+}
+
+#list1 img {
+  padding-top: 15px;
+  height: 20px;
+}

@@ -1,0 +1,68 @@
+.box {
+  width: 300px;
+  padding: 12px;
+  background-color: dodgerblue;
+
+  transition: transform 0.6s, background-color 0.1s, width 0.5s;
+}
+.box:hover {
+  transform: rotate(30deg);
+  background-color: gold;
+  width: 400px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.box1 {
+  width: 300px;
+  background-color: gold;
+  color: green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+  transition: transform 20s, background-color 30s;
+}
+
+.box1:hover {
+  transform: rotate(50deg);
+  transform: scale(1.5);
+  transform: skew(50deg);
+
+  background-color: blue;
+  color: brown;
+  cursor: pointer;
+}
+p {
+  color: green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+
+
+.tool{
+    width: 300px;
+    background-color: gold;
+    animation: tool;
+    
+    animation-duration: 10s;
+   
+}
+
+
+p{
+     color: blue;
+}
+
+
+@keyframes tool {
+   10%{background-color: brown;}
+    
+   90%{background-color: aqua;}
+
+    
+}

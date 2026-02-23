@@ -1,0 +1,32 @@
+.box {
+  width: 300px;
+  /* height: 10px; */
+  position: absolute;
+  left: 100px;
+}
+
+.box1 {
+  position: relative;
+  border: 1px solid;
+  width: 300px;
+  height: 300px;
+}
+
+button {
+  position: fixed;
+  right: 10px;
+}
+
+.class {
+  background-color: aqua;
+  width: 300px;
+  height: 300px;
+}
+.last {
+  background-color: red;
+  position: sticky;
+  top: 10px;
+}
+body {
+  height: 10000000000000px;
+}
